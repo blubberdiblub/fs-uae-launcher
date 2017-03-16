@@ -182,7 +182,7 @@ dist_name = {tar_name}-$(version)
 dist_dir := $(build_dir)/$(dist_name)
 
 DESTDIR :=
-prefix := /usr/local
+prefix := /opt/fs-uae
 
 """.format(tar_name=project.tar_name))
 

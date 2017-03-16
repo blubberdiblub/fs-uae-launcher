@@ -68,7 +68,7 @@ class GameCenterUtil(object):
             if os.path.exists(path):
                 print("checking", path)
                 return path
-            path = "/usr/local/bin/" + name
+            path = "/opt/fs-uae/bin/" + name
             if os.path.exists(path):
                 print("checking", path)
                 return path

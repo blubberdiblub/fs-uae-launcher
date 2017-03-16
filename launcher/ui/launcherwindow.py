@@ -294,7 +294,7 @@ class LauncherWindow(WindowWithTabs):
 
         # FIXME: Check relative to executable instead
         if not icon:
-            icon = check_icon("/usr/local/share/fs-uae-launcher")
+            icon = check_icon("/opt/fs-uae/share/fs-uae-launcher")
         if not icon:
             icon = check_icon("/usr/share/fs-uae-launcher")
 
